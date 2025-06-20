@@ -1,3 +1,26 @@
+## How to Install
+
+# 1. Clone repository ini ke folder lokal
+git clone https://github.com/Arfa44/frontend-uas-pbf-230202086.git
+
+# 2. Masuk ke folder project
+cd frontend-uas-pbf-230202085
+
+# 3. Install dependensi dengan Composer
+composer install
+
+# 4. Duplikat file .env jika belum ada
+cp .env.example .env
+
+# 5. Generate application key Laravel
+php artisan key:generate
+
+# 6. (Opsional) Atur koneksi ke backend CI4 (via .env atau file config)
+
+# 7. Jalankan Laravel development server
+php artisan serve
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

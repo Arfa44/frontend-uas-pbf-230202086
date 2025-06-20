@@ -4,7 +4,7 @@
 git clone https://github.com/Arfa44/frontend-uas-pbf-230202086.git
 
 # 2. Masuk ke folder project
-cd frontend-uas-pbf-230202085
+cd frontend-uas-pbf-230202086
 
 # 3. Install dependensi dengan Composer
 composer install
